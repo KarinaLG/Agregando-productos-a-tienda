@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Productos - Kolor Sublime</title>
+
+    <link rel="stylesheet" href="reset.css/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="caja" div="menu">
+        <img src="/img/logo.png" class="logoks" />
+        <nav class="contenedor">
+          <ul>
+            <li><a >Home</a></li>
+            <li><a >Productos</a></li>
+            <li><a >Contacto</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+    <section class="menu_dividido">
+      <div class="izquierda">
+        <h1 class="tituloPrincipal">PRODUCTOS</h1>
+        <ul class="productos" data-lista>
+          
+          <!--<p class="id_card">${id}</p>
+          <h2>${nombre}</h2>
+            <img src="${imagen}" class="zoomi" />
+            <p class="producto-descripción">${descripcion}</p>
+            <div class="footer_card">
+              <p class="producto-precio">$${precio} MXN.</p>
+              <input name=boton_delete value="" id=${id}
+                  class="boton_trash"
+                  type="submit"
+                  data-delete/>
+            </div>-->
+        </ul>
+      </div>
+
+      <div class="derecha">
+        <h2 id="titulo_menu_agregar">Agregar productos</h1>
+            <form class="entradas" data-formulario>
+              <fieldset class="formulario__campo">
+                <label class="campo__etiqueta" for="Id">Id</label>
+                <input
+                  name="Id"
+                  id="Id"
+                  class="campo__completo"
+                  type="number"
+                  minlength="1"
+                  required data-id
+               />
+               <span class="mensaje-error"></span>
+               </fieldset>
+
+                    <fieldset class="formulario__campo">
+                      <label class="campo__etiqueta" for="nombre">Nombre</label>
+                      <input
+                        name="nombre"
+                        id="nombre"
+                        class="campo__completo"
+                        type="text"
+                        minlength="3"
+                        required data-nombre
+                     />
+                     <span class="mensaje-error"></span>
+                     </fieldset>
+                 
+                        <fieldset class="formulario__campo">
+                          <label class="campo__etiqueta" for="precio">Precio</label>
+                          <input
+                            name="precio"
+                            id="precio"
+                            class="campo__completo"
+                            type="number"
+                            minlength="1" placeholder="$00.00"
+                            required data-precio
+                            />
+                            <span class="mensaje-error"></span>
+                        </fieldset>
+
+                    
+                        <fieldset class="formulario__campo">
+                            <label class="campo__etiqueta" for="imagen">Imagen</label>
+                            <input
+                              name="imagen"
+                              id="imagen"
+                              class="campo__completo"
+                              type="text" placeholder="Agrega el URL de la imagen"
+                              required data-imagen
+                              />
+                              <span class="mensaje-error"></span>
+                          </fieldset>
+
+                          <fieldset class="formulario__campo">
+                            <label class="campo__etiqueta" for="descripcion">Descripción</label>
+                            <input
+                              name="descripcion"
+                              id="descripcion"
+                              class="campo__completo"
+                              type="text"
+                              minlength="1" placeholder="Describe de manera breve el producto"
+                              required data-descripcion
+                              />
+                              <span class="mensaje-error"></span>
+                          </fieldset>
+                          
+
+                          <div class="botones_enviar_limpiar">
+                            <input
+                              value="Enviar"
+                              class="formulario__boton"
+                              id="enviar"
+                              data-boton-enviar
+                              type="submit"
+                            />
+                            <span class="mensaje-error"></span>
+            
+                            <input
+                            value="Limpiar"
+                            class="formulario__boton"
+                            id="limpiar"
+                            data-boton-limpiar
+                            type="reset"
+                          />
+                          <span class="mensaje-error"></span>
+                        </div>
+            </form>
+
+            
+      </div>
+    </section>
+
+    </main>
+
+    <footer>
+      <img src="/img/logo.png" width="240px" />
+      <p class="copyright">Creado por Karina Lopez Galván</p>
+    </footer>
+    <script src="./js/limpiar.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+  </body>
+</html>
+<!DOCTYPE html>

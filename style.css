@@ -1,0 +1,426 @@
+body{
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    background-color: rgb(255, 200, 231);
+}
+
+.logoks{
+    width: 240px;
+    /*box-shadow: 10px 10px 30px 15px #3ccbff;*/
+    
+    }
+    
+    .banner{
+      width: 100%;
+    }
+    
+    header{
+      background-image:url(/img/chispas.png);
+      padding:60px 0;
+    }
+    
+    nav{
+       position: absolute;
+       top: 80px;
+       right: 0;
+    }
+    
+    .contenedor{
+       background-color: #91108f;
+       Margin: 0 2%;
+       padding: 30px 10px;
+       box-sizing: border-box;
+       border-radius: 20px;
+       gap: 40px;
+    
+    }
+    
+    .contenedor li ul a:hover{
+        background-color: #d2217f;
+    
+    }
+    
+    
+    menu li ul a{
+        display: block;
+        padding: 10px;
+    
+    }
+    
+    #mision{
+        text-align: center;
+        color: #564787;
+    }
+    
+    #mincompra{
+        font-weight: bold;
+        color: #564787;
+    }
+    
+    
+    .caracteristicas{
+    width: 120px;
+    
+    }
+    
+    .caja{
+     
+       width: 960px;
+       margin: 0 auto;
+       gap: 15px;
+    }
+    
+    nav ul li{
+       display: inline;
+       margin: 0 0 0 15px;
+    }
+    
+    
+    nav a{
+    
+       text-transform: uppercase;
+       color:white; 
+       font-size: 20px;
+       text-decoration: none;
+     
+    
+    } 
+    
+    
+
+    .tituloPrincipal{
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        padding: 1em 1em 1em;
+        color: rgb(93, 15, 92);
+        /*color: rgba(red, green, blue, alpha);
+        se utiliza para poner opacidad en el cuarto parametro mientras se coloca el color si se usa rgb se utiliza el color sin opacidad
+        */  
+        text-shadow: 2px 2px 2px #c22d7a; /*sombras en texto*/
+      }
+    
+        
+
+.productos li{
+    display: inline-block;
+    background-color: #F261AE;
+   /*background: url(menuimage.png);*/
+    text-align: center;
+    width: 40%;
+    vertical-align: top;
+    Margin: 0 1.5%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px dotted #37003a;
+    border-radius: 5px;
+    text-decoration: none;
+   
+    /*border-color:#000000 ;-->
+    border-width: 2px;
+    border-style: solid;*/
+    
+}
+
+.productos{
+    margin: auto 1.5%;
+    padding: 5px;
+    display: flexbox;
+    align-items:center;
+    justify-content: space-between;
+  
+  }
+
+.menu_dividido{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.derecha{
+    width: 35%;
+    display: fixed;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.izquierda{
+    display: flexbox;
+    width: 65%;
+    
+}
+
+#titulo_menu_agregar{
+    color: #FFFFFF;
+    font-size: 35px;
+   font-weight: bold;
+   margin:20px;
+   text-align: center;
+   border-color: #460528;
+   border-radius: 10px;
+   padding: 10px;
+   background-color: #460528;
+
+}
+
+.entradas{
+   align-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: 3px;
+    background-color:#f076b7;
+    border-color:#460528;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    color: #363937;
+}
+
+.formulario__campo{
+    margin:15px;
+    padding: 15px;
+    
+}
+
+.campo__etiqueta {
+    font-weight: 500;
+    line-height: 20px;
+    color: #49081f;
+    font-weight: 600;
+}
+
+.campo__completo {
+    display: block;
+    border: 2px solid #af1d50;
+    border-radius: 20px;
+    width: 90%;
+
+    padding: 1em;
+    margin-top: .5em;
+
+}
+
+.formulario__boton {
+    background-color: #d2217f;
+    color: #FFFFFF;
+    margin: 2em auto;
+    display: block;
+    border: none;
+    padding: 1em 16%; 
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+
+}
+
+.formulario__boton:hover {
+    cursor: pointer;
+    background-color: #460528;
+}
+
+
+
+.botones_enviar_limpiar{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.productos h2{
+   font-size: 30px;
+   font-weight: bold;
+   color: white;
+   padding: 8px;
+   
+}
+
+
+
+
+.productos li{
+
+ margin: 10px;
+}
+
+.producto-descripción{
+
+font-size: 18px;
+padding: 12px;
+}
+
+
+.producto-precio{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight:bold;
+    color: #460528;
+}
+
+
+.productos li:hover{
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+.productos li:active{
+
+    border-color:#0cc6ff;
+    text-decoration: none;
+    
+}
+.id_card{
+color: white;
+text-align: left;
+padding-left: 10px;
+font-weight: 15px;
+}
+
+.footer_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.zoomi{
+    width:95%;
+    transition: transform .5s;
+}
+
+.boton_trash{
+    background-image: url(/img/trash.png);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position:center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: #37003a;
+    background-color: #91108f;
+    border-radius: 15px;
+    border-color: #37003a;
+    border-style: groove;
+}
+
+.boton_trash:hover{
+scale:110%;
+transition:1s;
+}
+
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background: url(/img/footerr.png) ;
+ }
+ 
+ .copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 15px;
+ }
+
+
+
+
+
+ @media(max-width: 870px){
+body{
+    width: 100%;
+}
+
+    .menu_dividido{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .derecha{
+        width: 98%;
+    }
+
+    .izquierda{
+        width: 100%;
+    }
+
+    .botones_enviar_limpiar{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .formulario__boton {
+        background-color: #d2217f;
+        color: #FFFFFF;
+        margin: 10px auto;
+        display: block;
+        border: none;
+        padding: 1em 30%; 
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        cursor: pointer;
+    
+    }
+    
+
+     .logoks{
+       margin-right: auto;
+       margin-left: auto;
+       margin-top: 5px;
+       gap: 10px;
+     }
+
+     menu li ul a{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+
+    .caja{
+     
+        width: 100%;
+        margin: 0 auto;
+        gap: 15px;
+     }
+
+     header{
+        background-image:url(/img/chispas.png);
+        padding:150px 0px 30px 0px;
+      }
+      
+      nav{
+         position: absolute;
+         top:20px
+      }
+      .banner{
+        justify-content: center;
+      }
+
+      menu li ul a{
+    display: inline;
+        padding: 10px;
+    
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .entradas{
+        width: 95%;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    
+
+}

@@ -1,0 +1,25 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "agregar productos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karina_LopezG",
+  "license": "ISC",
+  "dependencies": {
+    "json": "^11.0.0",
+    "json-server": "^1.0.0-beta.1",
+    "server": "^1.0.39"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KarinaLG"
+  },
+  "keywords": [
+    "geek",
+    "productos"
+  ],
+  "devDependencies": {}
+}

@@ -1,0 +1,11 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Taza Mágica",
+      "descripcion": "Taza de 11 oz glitter",
+      "precio": "110",
+      "imagen": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg"
+    }
+  ]
+}
